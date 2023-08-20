@@ -1,0 +1,104 @@
+{
+  "object": "page",
+  "entry": [
+    {
+      "id": "122725320913438",
+      "time": 1692509775226,
+      "messaging": [
+        {
+          "sender": {
+            "id": "9849870678420864"
+          },
+          "recipient": {
+            "id": "122725320913438"
+          },
+          "timestamp": 1692509751098,
+          "message": {
+            "mid": "m_wQIGETO1TvtYL9wxOK-cL2Tpwr1ihAOhrGgt3_IigTCe5wDWCR99WwYBjNqGTwu1H64u_tM9CwM_hCGG-e9DDQ",
+            "text": "nice",
+            "nlp": {
+              "intents": [],
+              "entities": {
+                "wit$location:location": [
+                  {
+                    "id": "624173841772436",
+                    "name": "wit$location",
+                    "role": "location",
+                    "start": 0,
+                    "end": 4,
+                    "body": "nice",
+                    "confidence": 0.9074,
+                    "entities": {},
+                    "resolved": {
+                      "values": [
+                        {
+                          "name": "Nice",
+                          "domain": "locality",
+                          "coords": {
+                            "lat": 43.703128814697,
+                            "long": 7.2660799026489
+                          },
+                          "timezone": "Europe\/Paris",
+                          "external": {
+                            "geonames": "2990440",
+                            "wikidata": "Q33959",
+                            "wikipedia": "Nice"
+                          },
+                          "attributes": {}
+                        },
+                        {
+                          "name": "Arrondissement de Nice",
+                          "domain": "region",
+                          "coords": {
+                            "lat": 44.027210235596,
+                            "long": 7.1609501838684
+                          },
+                          "timezone": "Europe\/Paris",
+                          "external": {
+                            "geonames": "2990439",
+                            "wikidata": "Q701950",
+                            "wikipedia": "Arrondissement of Nice"
+                          },
+                          "attributes": {}
+                        },
+                        {
+                          "name": "Nice",
+                          "domain": "region",
+                          "coords": {
+                            "lat": 43.70193862915,
+                            "long": 7.2683300971985
+                          },
+                          "timezone": "Europe\/Paris",
+                          "external": {
+                            "geonames": "6454924"
+                          },
+                          "attributes": {}
+                        }
+                      ]
+                    },
+                    "type": "resolved"
+                  }
+                ]
+              },
+              "traits": {
+                "wit$sentiment": [
+                  {
+                    "id": "5ac2b50a-44e4-466e-9d49-bad6bd40092c",
+                    "value": "positive",
+                    "confidence": 0.9396
+                  }
+                ]
+              },
+              "detected_locales": [
+                {
+                  "locale": "en_XX",
+                  "confidence": 0.8921
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
